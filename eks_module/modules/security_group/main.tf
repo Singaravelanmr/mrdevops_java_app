@@ -1,5 +1,5 @@
 resource "aws_security_group" "velans_sg" {
-  name        = var.sg
+  name        = var.velans_sg
   vpc_id       = var.vpc_id
 
   ingress {
