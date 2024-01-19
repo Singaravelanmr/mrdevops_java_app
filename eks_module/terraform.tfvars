@@ -1,4 +1,4 @@
-access_key = "AKIAU63ZUQB47TECI5RV"
+access_key = "AKIAYFXCKNXAIHEEWI5W"
 secret_key = "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"
 rolename = "velans-eks-demo-role1"
 region = "ap-south-1"
