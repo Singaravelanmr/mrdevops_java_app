@@ -1,4 +1,12 @@
 
+variable "access_key" {
+    description = ""
+    type = string
+}
+variable "secret_key" {
+    description = ""
+    type = string
+}
 variable "region" {
     description = ""
     type = string
