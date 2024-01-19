@@ -15,7 +15,7 @@ module "security_group" {
     source             = "./modules/security_group"
     velans_sg                 = var.velans_sg
     tags               = var.tags
-    velans_vpc             = module.velans_vpc.id
+    vpc_id             = module.velans_vpc.id
 }
 
 
