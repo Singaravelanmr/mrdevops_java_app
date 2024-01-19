@@ -1,9 +1,9 @@
-module "velans_vpc" {
+module "vpc" {
     source             = "./modules/vpc"
     cidr_block         = var.cidr_block
-    cidr_block_igw     = var.cidr_block_igw 
+    cidr_block_igw     = var.cidr_block_igw
     sub-a_cidr_block   = var.sub-a_cidr_block
-    subnet_az1         = var.subnet_az1 
+    subnet_az1         = var.subnet_az1
     sub-b_cidr_block   = var.sub-b_cidr_block
     subnet_az2         = var.subnet_az2
     sub-c_cidr_block   = var.sub-c_cidr_block
@@ -13,9 +13,9 @@ module "velans_vpc" {
 
 module "security_group" {
     source             = "./modules/security_group"
-    velans_sg                 = var.velans_sg
+    sg                 = var.sg
     tags               = var.tags
-    vpc_id             = module.velans_vpc.id
+    vpc_id             = module.vpc.vpc_id
 }
 
 
@@ -36,7 +36,7 @@ module "eks_node_group" {
     depends_on       = [module.eks_cluster]
     region           = var.region
     cluster_name     = var.cluster_name
-    node_role_name   = var.node_role_name 
+    node_role_name   = var.node_role_name
     node_group_name  = var.node_group_name
     subnet_ids       = [module.vpc.subnet_id_a, module.vpc.subnet_id_b, module.vpc.subnet_id_c]
     instance_types   = var.instance_types
