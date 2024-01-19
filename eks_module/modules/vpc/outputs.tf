@@ -3,13 +3,13 @@ output "velans_subnet-a" {
   description = ""
   value       = aws_subnet.velans_subnet-a.id
 }
-output "subnet_id_b" {
+output "velans_subnet-b" {
   description = ""
-  value       = aws_subnet.subnet-b.id
+  value       = aws_subnet.velans_subnet-b.id
 }
-output "subnet_id_c" {
+output "velans_subnet-c" {
   description = ""
-  value       = aws_subnet.subnet-c.id
+  value       = aws_subnet.velans_subnet-c.id
 }
 
 output "vpc_id" {
