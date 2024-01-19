@@ -1,18 +1,17 @@
-
-output "velans_subnet-a" {
+output "subnet_id_a" {
   description = ""
   value       = aws_subnet.velans_subnet-a.id
 }
-output "velans_subnet-b" {
+output "subnet_id_b" {
   description = ""
   value       = aws_subnet.velans_subnet-b.id
 }
-output "velans_subnet-c" {
+output "subnet_id_c" {
   description = ""
   value       = aws_subnet.velans_subnet-c.id
 }
 
-output "velans_vpc" {
+output "vpc_id" {
   description = ""
   value       = aws_vpc.velans_vpc.id
 }
