@@ -1,4 +1,4 @@
-variable "sg" {
+variable "velans_sg" {
     description = ""
     type = string
 }
