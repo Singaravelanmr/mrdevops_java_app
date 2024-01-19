@@ -1,4 +1,4 @@
-module "vpc" {
+module "velans_vpc" {
     source             = "./modules/vpc"
     cidr_block         = var.cidr_block
     cidr_block_igw     = var.cidr_block_igw 
