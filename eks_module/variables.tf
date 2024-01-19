@@ -86,7 +86,7 @@ variable "subnet_az3" {
     type = string
 }
 
-variable "sg" {
+variable "velans_sg" {
     description = ""
     type        = string
 }
