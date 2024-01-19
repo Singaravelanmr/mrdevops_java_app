@@ -1,4 +1,4 @@
-variable "velans_sg" {
+variable "sg" {
     description = ""
     type = string
 }
@@ -12,5 +12,5 @@ variable "tags" {
     type = map(string)
     default = {
         env = "dev"
-    } 
+    }
 }
