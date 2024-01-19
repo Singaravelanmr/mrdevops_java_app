@@ -11,14 +11,10 @@ variable "region" {
     description = ""
     type = string
 }
-variable "vpc_id" {
-    description = ""
-    type = string
-}
 variable "cluster_name" {
     description = ""
     type = string
-    nullable = false  
+    nullable = false
 }
 variable "kubernetes_version" {
     description = ""
@@ -29,7 +25,7 @@ variable "tags" {
     type = map(string)
     default = {
         env = "dev"
-    } 
+    }
 }
 variable "rolename" {
     description = ""
@@ -74,7 +70,7 @@ variable "sub-a_cidr_block"{
 
 variable "subnet_az1" {
     description = ""
-    type = string 
+    type = string
 }
 
 
@@ -98,7 +94,7 @@ variable "subnet_az3" {
     type = string
 }
 
-variable "velans_sg" {
+variable "sg" {
     description = ""
     type        = string
 }
@@ -109,5 +105,5 @@ variable "node_role_name" {
 }
 variable "cidr_block_igw" {
     description = ""
-    type = string 
+    type = string
 }
