@@ -12,7 +12,7 @@ output "velans_subnet-c" {
   value       = aws_subnet.velans_subnet-c.id
 }
 
-output "vpc_id" {
+output "velans_vpc" {
   description = ""
-  value       = aws_vpc.vpc.id
+  value       = aws_vpc.velans_vpc.id
 }
