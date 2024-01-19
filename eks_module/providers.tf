@@ -3,7 +3,7 @@ terraform {
     bucket                  = "velans-eks-cluster-state-store"
     key                     = "terraform-state"
     region                  = "ap-south-1"
-    shared_credentials_file = "~/.aws/credentials"
+    //shared_credentials_file = "~/.aws/credentials"
     }
 
   required_providers {
@@ -16,6 +16,4 @@ terraform {
 
 provider "aws" {
   region = "ap-south-1"
-  access_key = var.access_key
-  secret_key = var.secret_key
 }
