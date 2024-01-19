@@ -1,7 +1,7 @@
 
-output "sg" {
+output "velans_sg" {
   description = ""
-  value       = aws_security_group.sg.id
+  value       = aws_security_group.velans_sg.id
 }
 
 
