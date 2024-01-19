@@ -1,7 +1,7 @@
 
-output "subnet_id_a" {
+output "velans_subnet-a" {
   description = ""
-  value       = aws_subnet.subnet-a.id
+  value       = aws_subnet.velans_subnet-a.id
 }
 output "subnet_id_b" {
   description = ""
