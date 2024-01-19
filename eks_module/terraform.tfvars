@@ -12,7 +12,7 @@ instance_types = ["t2.medium"]
 ami_type = "AL2_x86_64"
 capacity_type = "ON_DEMAND"
 disk_size = 20
-
+vpc_id = "velans_vpc"
 cidr_block_igw = "0.0.0.0/0"
 cidr_block = "11.0.0.0/16"
 sub-a_cidr_block = "11.0.1.0/24"
