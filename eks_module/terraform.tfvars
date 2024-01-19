@@ -23,4 +23,4 @@ sub-c_cidr_block = "11.0.3.0/24"
 subnet_az3 = "ap-south-1c" 
 
 
-sg = "velans_sg"
+velans_sg = "velans_sg"
