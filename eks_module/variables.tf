@@ -11,6 +11,10 @@ variable "region" {
     description = ""
     type = string
 }
+variable "vpc_id" {
+    description = ""
+    type = string
+}
 variable "cluster_name" {
     description = ""
     type = string
