@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myjavaapp
-        image: 562041613760.dkr.ecr.ap-south-1.amazonaws.com/velansdemo:134
+        image: 562041613760.dkr.ecr.ap-south-1.amazonaws.com/velansdemo:141
         ports:
         - containerPort: 8080
 
