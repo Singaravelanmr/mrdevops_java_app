@@ -1,5 +1,5 @@
 
-562041613760.dkr.ecr.ap-south-1.amazonaws.com/velansdemo:132 (alpine 3.9.4)
+562041613760.dkr.ecr.ap-south-1.amazonaws.com/velansdemo:133 (alpine 3.9.4)
 ===========================================================================
 Total: 274 (UNKNOWN: 0, LOW: 124, MEDIUM: 114, HIGH: 32, CRITICAL: 4)
 
