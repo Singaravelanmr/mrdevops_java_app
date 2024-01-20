@@ -1,0 +1,2 @@
+/eks_module/.terraform/*
+/eks_module/.terraform.lock.hcl
