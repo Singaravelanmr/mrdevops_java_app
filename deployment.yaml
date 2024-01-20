@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: myjavaapp-deployment
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: myjavaapp
@@ -27,7 +27,7 @@ spec:
   selector:
     app: myjavaapp
   ports:
-  - name: http
-    port: 80
+  - port: 80
     targetPort: 8080
+    nodePort: 30008
   type: NodePort
